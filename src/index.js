@@ -11,7 +11,7 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width: width,
         height: height,
-        icon: path.join(__dirname, 'src/icon.png'),  // Optional: add a custom icon
+        icon: path.join(__dirname, 'icon.png'),  // Optional: add a custom icon
         webPreferences: {
             nodeIntegration: false,
             contextIsolation: true,
@@ -40,7 +40,7 @@ function createWindow() {
 
 // Create a system tray icon with menu
 function createTray() {
-    const iconPath = path.join(__dirname, 'src/tray-icon.png');  // Add your tray icon path
+    const iconPath = path.join(__dirname, 'tray-icon.png');  // Add your tray icon path
     tray = new Tray(iconPath);
 
     const trayMenu = Menu.buildFromTemplate([
@@ -61,7 +61,7 @@ function createTray() {
 
 // Display a notification when the app is minimized to tray
 function showTrayNotification() {
-    const icon = nativeImage.createFromPath(path.join(__dirname, 'src/icon.png'));
+    const icon = nativeImage.createFromPath(path.join(__dirname, 'icon.png'));
     new Notification({
         title: 'Word for Linux',
         body: 'The app is still running in the background.',
