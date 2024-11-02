@@ -13,4 +13,4 @@ This is a simple web app that mimics Microsoft Word for Linux. It offers a user-
 Clone the repository:
 
 ```bash
-git clone https://github.com/<username>/word-for-linux.git
+git clone https://github.com/Hermandev07/word-for-linux.git
