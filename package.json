@@ -86,7 +86,11 @@
       "node_modules/**/*"
     ],
     "linux": {
-      "target": "AppImage",
+      "target": [
+        "AppImage",
+        "deb",
+        "snap"
+      ],
       "icon": "icon.png",
       "category": "Office"
     },
@@ -99,7 +103,10 @@
     "linux",
     "webapp"
   ],
-  "author": "Herman Brennum",
+  "author": {
+    "name": "Herman",
+    "email": "hermanbrenn@gmail.com"
+  },
   "license": "MIT",
   "description": "This is Word for Linux, it's just a web app but it feels like Word."
 }

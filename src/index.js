@@ -22,6 +22,9 @@ function createWindow() {
     // Load Microsoft Word Online
     mainWindow.loadURL('https://office.live.com/start/Word.aspx');
 
+
+    win.setMenu(null);
+
     // Minimize to tray when the window is closed
     mainWindow.on('close', (event) => {
         if (!app.isQuitting) {
