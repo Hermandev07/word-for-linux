@@ -1,4 +1,4 @@
-# Word for Linux
+# <span style="color:cyan">Word</span> for  <span style="color:red">Linux</span>.
 
 **Word for Linux** is a lightweight web-based application that simulates a Microsoft Word experience on Linux. This project brings familiar document editing tools in a streamlined, Electron-powered desktop app optimized for Linux users.
 
