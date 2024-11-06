@@ -1,11 +1,21 @@
 {
   "devDependencies": {
+<<<<<<< HEAD
     "electron": "^33.0.2",
     "electron-builder": "^25.1.8"
   },
   "name": "word-for-linux",
   "version": "1.0.0",
   "main": "src/index.js",
+=======
+    "electron": "^33.1.0",
+    "electron-builder": "^25.1.8"
+  },
+  "name": "word-for-linux",
+  "version": "1.1.0",
+  "main": "index.js",
+  "homepage": "https://github.com/Hermandev07/word-for-linux",
+>>>>>>> 5762ff6 (update 1.1.0)
   "dependencies": {
     "boolean": "^3.2.0",
     "buffer-crc32": "^0.2.13",
@@ -80,8 +90,13 @@
     "appId": "com.hermandev.wordforlinux",
     "files": [
       "icon.png",
+<<<<<<< HEAD
       "tray-icon.png",
       "src/index.js",
+=======
+      "trayicon.png",
+      "index.js",
+>>>>>>> 5762ff6 (update 1.1.0)
       "package.json",
       "node_modules/**/*"
     ],
